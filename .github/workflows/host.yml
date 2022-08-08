@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Run super linter
-      - uses: github/super-linter@v3
+        uses: github/super-linter@v3
 
   Build-App-Steps:
     runs-on: ubuntu-latest
